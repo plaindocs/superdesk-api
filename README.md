@@ -4,10 +4,10 @@
 
 ## Render the api
 
-You can use `aglio` to render the api:
+You can use [`aglio`](https://github.com/danielgtaylor/aglio) to render the api:
 
     ./node_modules/aglio/bin/aglio.js -i apiary.apib -o out.html
 
-You can use `protagonist` to test that the api has valid json:
+You can use [`protagonist`](https://github.com/apiaryio/protagonist) to test that the api has valid json:
 
     node test.js
